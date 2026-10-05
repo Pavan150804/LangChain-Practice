@@ -1,0 +1,33 @@
+# Environment files
+.env
+.env.*
+
+# Virtual environments
+langchainmodelsenv/
+promptTemplateEnv/
+structureOutputEnv/
+chainsEnv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Models
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Vector databases
+*.db
+*.sqlite3
+*.faiss
+chroma/
+chroma_db/
+persist_directory/
